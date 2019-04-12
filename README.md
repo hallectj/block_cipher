@@ -1,2 +1,6 @@
 # block_cipher
 A block cipher made in Python
+
+Included is a plaintext file which is what we are going to encrypt, the encryption program and the decryption program.  The first thing you want to do is edit the plaintext file and make it say what you want.  The letters must be in English.  Once you run the encryption program, the program will ask you for a multiplier.  Enter a number so long as it is relatively prime (ie gcd(a, b) = 1) and then it will ask for an offset.
+
+Upon entering these numbers you will create a file called "cipheroutput.txt" which will be a series of numbers.  Congratulations you encrypted your message.  Now we want to decrypt the message.  Open up the decryption program and it will again ask you for a multipler and offset.  Enter the same values as you did in the encryption program otherwise you won't decrypt the message.  Voila, you will now have a file created called plaintextoutput.txt which will have the same message as the plaintext file.  Your decrypted message will however be in all caps and bunched together.  In a later version when I get time, I will improve upon this so it gives the proper spacing.  Okay, now have fun encrypting and decrypting messages.
